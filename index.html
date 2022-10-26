@@ -19,7 +19,7 @@
     <section id="mainNav">
 
 
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
             <div class="container">
                 <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link"> What You'll learn</a>
+                            <a href="#learn" class="nav-link"> What You'll learn</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"> Questions</a>
+                            <a href="#questions" class="nav-link"> Questions</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Instructions </a>
+                            <a href="#team" class="nav-link">Instructions </a>
                         </li>
                     </ul>
                 </div>
@@ -47,9 +47,9 @@
 
 
     <!--Showcase Section-->
-    <section class="bg-dark p-5  p-lg-0 text-center text-light">
+    <section class="bg-dark p-5 p-lg-0  text-center text-light">
         <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="d-sm-flex align-items-center justify-content-between pt-lg-4">
                 <div class="text-sm-start">
                     <h1>Become a <span class="text-warning"> Web Developer</span> </h1>
                     <p class="lead my-4">
@@ -59,7 +59,7 @@
 
                     <button class="btn btn-primary btn-lg">Start the Enrollment</button>
                 </div>
-                <img src="/images/devfocus.svg" class="w-50 d-none d-sm-block" alt="">
+                <img src="/images/undraw_dev_focus_re_6iwt.svg" class="w-50 d-none d-sm-block" alt="">
             </div>
         </div>
     </section>
@@ -179,6 +179,53 @@
                 <img src="/images/react.svg" class="img-fluid animated" alt="">
             </div>
         </div>
+    </div>
+</section>
+
+
+<!--Accordion Section-->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-3">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+
+            
+            <!--Item1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
+                  Where exactly are you located?
+                </button>
+              </h2>
+              <div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+
+            <!--item 2-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+
+            <!--Item 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
     </div>
 </section>
 
